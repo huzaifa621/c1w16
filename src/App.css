@@ -1,3 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+
+.count-item {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
 .App {
   text-align: center;
 }
